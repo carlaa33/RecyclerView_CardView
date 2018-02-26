@@ -29,16 +29,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Aquí va la adición de elementos a la lista
         productList.add(
-                new DataProvider("Titulo1", "Otro1", 4.3,R.drawable.imagen1)
+                new DataProvider("Folklorica", "Sones de la huasteca", 4.3,R.drawable.imagen1)
         );
         productList.add(
-                new DataProvider("Titulo2", "Otro2", 4.3,R.drawable.imagen2)
+                new DataProvider("Rock Alternativo", "Urbano", 4.3,R.drawable.imagen2)
         );
         productList.add(
-                new DataProvider("Titulo3", "Otro3", 4.3,R.drawable.imagen3)
+                new DataProvider("Acusticas", "Guitarras", 4.3,R.drawable.imagen3)
         );
         productList.add(
-                new DataProvider("Titulo4", "Otro4", 4.3,R.drawable.imagen4)
+                new DataProvider("Baladas", "Genero del amor", 4.3,R.drawable.imagen4)
         );
 
         adapter = new ProductAdapter(this,productList);
