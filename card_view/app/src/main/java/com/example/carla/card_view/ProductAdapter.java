@@ -37,16 +37,10 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     @Override
     public void onBindViewHolder(ProductViewHolder holder, int position) {
         DataProvider product = productList.get(position);
-
         holder.textViewTitle.setText(product.getTitle());
         holder.textViewDesc.setText(product.getShortdesc());
         holder.textViewRating.setText(String.valueOf(product.getRating()));
         holder.imageView.setImageDrawable(mCtx.getResources().getDrawable(product.getImage()));
-
-
-
-
-
     }
 
     @Override
